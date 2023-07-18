@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Music Player</title>
+</head>
+
+<body>
+  
+    <img src="images/lzzy-hale.jpg.jpg" alt="">
+  <div class="descricao">
+    <h2>Nome da Música</h2>
+    <i>Artista</i>
+  </div>
+  <div class="duracao">
+    <div class="barra">
+      <progress value="0" max="1"></progress>
+      <div class="ponto"></div>
+    </div>
+    <div class="tempo">
+      <p class="inicio">0:00</p>
+      <p class="fim">3:40</p>
+    </div>
+  </div>
+  <div class="player">
+    <i class="ph ph-skip-back setas anterior"></i>
+    <i class="ph ph-play-circle botao-play"></i>
+    <i class="ph ph-pause-circle botao-pause"></i>
+    <i class="ph ph-skip-forward setas proxima"></i>
+  </div>
+  
+  <audio id="audio1" src="musics/Halestorm - I Miss The Misery.mp3"></audio>
+  <script src="./script.js"></script>
+</body>
+
+</html>
